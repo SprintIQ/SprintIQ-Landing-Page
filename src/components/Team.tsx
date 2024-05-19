@@ -10,11 +10,11 @@ const Team = () => {
         </p>
       </div>
 
-      <div className="grid grid-cols-3 max-w-[850px] mx-auto mt-10 gap-y-10">
-        <TeamMemberCard image="./uddy.png" memberName="Udoka A.M" position="Team Lead"/>
+      <div className="grid space-x-1 grid-cols-3 max-w-[850px] mx-auto mt-10 gap-y-10 ">        
+        <TeamMemberCard image="./uddy.png" memberName="Udoka A.M" position="Team Lead" />
         <TeamMemberCard image="./kelechi.png" memberName="Kelechi Endurance" position="Product Designer"/>
         <TeamMemberCard image="./udoka.png" memberName="Onyele Udoka" position="Full-stack Developer"/>
-        <TeamMemberCard image="./francis.png" memberName="Francis Codex" position="Frontend Developer"/>
+        <TeamMemberCard image="./francis.png" memberName="Francis Codex" position="Frontend Engineer"/>
         <TeamMemberCard image="./tim.png" memberName="Tim Adigwe" position="Smart Contract Developer"/>
       </div>
     </section>
@@ -32,7 +32,7 @@ interface TeamMemberCardProp {
 const TeamMemberCard = ({image, memberName, position}: TeamMemberCardProp) => {
     return (
         <div>
-            <img src={image} alt="" />
+            <img src={image} alt="" className="border rounded-md " />
             <h2 className="text-sm lg:text-lg font-semibold">{memberName}</h2>
             <h4 className="text-xs">{position}</h4>
         </div>
