@@ -6,7 +6,7 @@
     .hero{
         background-image: 
         url('./assets/hero.jpg'),
-        radial-gradient(87.74% 87.74% at 83.28% 6.8%, #026305 0%, #017724 67.15%, #015c0d 99.17%);
+        radial-gradient(87.74% 87.74% at 83.28% 6.8%, #027506 0%, #018629 67.15%, #037512 99.17%);
         background-size: cover;
         background-blend-mode: soft-light;
         background-position: center center;
