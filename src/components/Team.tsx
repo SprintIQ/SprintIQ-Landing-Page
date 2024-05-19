@@ -1,6 +1,6 @@
 const Team = () => {
   return (
-    <section className="px-10 lg:px-20 py-10 lg:py-5">
+    <section className="px-10 lg:px-20 py-10 lg:py-5 team-hero">
       <div>
         <h2 className="text-center text-8xl lg:text-[250px] font-bold text-[#1DAA4554]">
             Team

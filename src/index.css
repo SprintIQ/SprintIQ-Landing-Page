@@ -3,16 +3,32 @@
 @tailwind utilities;
 
 @layer{
-    .hero-bg{
+    .hero{
         background-image: 
-        url('./bg-tech-img.png'),
+        url('./assets/hero.jpg'),
+        radial-gradient(87.74% 87.74% at 83.28% 6.8%, #026305 0%, #017724 67.15%, #015c0d 99.17%);
+        background-size: cover;
+        background-blend-mode: soft-light;
+        background-position: center center;
+    }
+    .about-hero{
+        background-image: 
+        url('./assets/sp.png'),
+        radial-gradient(87.74% 87.74% at 83.28% 6.8%, #013403 0%, #008928 67.15%, #01410A 99.17%);
+        background-size: cover;
+        background-blend-mode: soft-light;
+        background-position: center center;
+    }
+    .team-hero{
+        background-image: 
+        url('./assets/sp.png'),
         radial-gradient(87.74% 87.74% at 83.28% 6.8%, #013403 0%, #008928 67.15%, #01410A 99.17%);
         background-size: cover;
         background-blend-mode: soft-light;
         background-position: center center;
     }
     .radial-gradient{
-        background-image: radial-gradient(87.74% 87.74% at 83.28% 6.8%, #013403 0%, #008928 67.15%, #01410A 99.17%)
+        background-image: radial-gradient(87.74% 87.74% at 83.28% 6.8%, #012902 0%, #006920 67.15%, #003808 99.17%)
     }
     .text-gradient{
         @apply bg-gradient-to-b from-[#E3F5E8] to-[#95D7A8] bg-clip-text text-transparent;

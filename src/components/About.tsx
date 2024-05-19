@@ -2,7 +2,7 @@ import WhyNowWhoWeAreFor from "./WhyNowWhoWeAreFor"
 
 const About = () => {
   return (
-    <div className="px-10 lg:px-20 py-10 lg:py-5">
+    <div className="px-10 lg:px-20 py-10 lg:py-5 about-hero">
         <div>
             <h2 className="text-center text-8xl lg:text-[250px] font-bold text-[#1DAA4554]">
                 About

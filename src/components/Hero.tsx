@@ -1,7 +1,7 @@
 const Hero = () => {
   return (
-    <section className="">
-      <div className="w-full h-[calc(100vh-70px)] hero-bg px-10 lg:px-20 flex flex-col justify-center mt-[50px]">
+    <section className="hero">
+      <div className="w-full h-[calc(100vh-70px)] hero px-10 lg:px-20 flex flex-col justify-center mt-[50px]">
         <h1 className="text-6xl lg:text-9xl font-bold inline-block text-gradient text-center lg:text-left w-full lg:w-fit">
           Connect <br /> Engage, <br /> Earn
         </h1>
