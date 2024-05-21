@@ -56,7 +56,7 @@ const TeamMemberCard = ({image, memberName, position, description, xLink, linked
               {
                 detailIsOpen ? 
                 (
-                  <RiCloseCircleLine className="cursor-pointer" onClick={() => setDetailIsOpen(!detailIsOpen)}/>
+                  <RiCloseCircleLine className="cursor-pointer " onClick={() => setDetailIsOpen(!detailIsOpen)}/>
                 ) 
                 : 
                 (

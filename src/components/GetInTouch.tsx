@@ -1,4 +1,5 @@
 import { RiGithubFill, RiLinkedinFill, RiMailFill, RiMediumFill, RiTwitterXFill } from "@remixicon/react"
+import { Link } from "react-router-dom"
 
 const GetInTouch = () => {
   return (
@@ -14,7 +15,9 @@ const GetInTouch = () => {
             </p>
             <div className="flex justify-center gap-3 mt-3">
                 <RiGithubFill/>
-                <RiTwitterXFill/>
+                <Link to={'https://x.com/sprintIQ'} >
+                <RiTwitterXFill />
+                </Link>
                 <RiLinkedinFill/>
                 <RiMediumFill/>
                 <RiMailFill/>
