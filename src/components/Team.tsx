@@ -16,11 +16,11 @@ const Team = () => {
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 max-w-[850px] mx-auto mt-10 gap-y-10 gap-x-2 items-start">
-        <TeamMemberCard image="./uddy.png" memberName="Udoka A.M" position="Team Lead" description="Blockchain Developer and DevRel Engineer"/>
-        <TeamMemberCard image="./kelechi.png" memberName="Kelechi Endurance" position="Product Designer" description={`Seasoned design professional`}/>
-        <TeamMemberCard image="./udoka.png" memberName="Onyele Udoka" position="Full-stack Developer" description="Product Centric Full Stack Engineer"/>
-        <TeamMemberCard image="./francis.png" memberName="Francis Codex" position="Frontend Developer" description="Blockchain Developer and Software Engineer"/>
-        <TeamMemberCard image="./tim.png" memberName="Tim Adigwe" position="Smart Contract Developer" description="Rust, Reactjs, React-native experienced developer"/>
+        <TeamMemberCard image="./uddy.png" memberName="Udoka A.M" position="Team Lead" description="Blockchain Developer and DevRel Engineer" xLink="https://x.com/Udoka_AM" linkedInLink="https://www.linkedin.com/in/udokaam/" websiteLink="https://x.com/SprintIQ"/>
+        <TeamMemberCard image="./kelechi.png" memberName="Kelechi Endurance" position="Product Designer" description={`Seasoned design professional`} xLink="https://x.com/endurance_kel" linkedInLink="https://www.linkedin.com/in/kelechi-endurance-5921b820b/" websiteLink="https://kelechi917.vzy.io/"/>
+        <TeamMemberCard image="./udoka.png" memberName="Onyele Udoka" position="Full-stack Developer" description="Product Centric Full Stack Engineer" xLink="https://x.com/FUMUDUKUS" linkedInLink="https://www.linkedin.com/in/udochukwukaonyela/" websiteLink="https://www.udoka.dev/"/>
+        <TeamMemberCard image="./francis.png" memberName="Francis Codex" position="Frontend Engineer" description="Blockchain Developer and Software Engineer" xLink="https://x.com/francis_codex" linkedInLink="https://www.linkedin.com/in/franciscodex/" websiteLink="https://franciscodex.vercel.app/" />
+        <TeamMemberCard image="./tim.png" memberName="Tim Adigwe" position="Smart Contract Developer" description="Rust, Reactjs, React-native experienced developer" xLink="https://x.com/AdigweTim" linkedInLink="https://www.linkedin.com/in/timadigwe/" websiteLink="https://x.com/AdigweTim"/>
       </div>
     </section>
   )
