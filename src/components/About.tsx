@@ -105,7 +105,7 @@ const About = () => {
 
         {/* TEAM */}
 
-   <div className="mt-20">
+   <div className="mt-24">
         <div>
         <h2 className="text-center text-8xl lg:text-[250px] font-bold text-[#1DAA4554] " >
             Team
