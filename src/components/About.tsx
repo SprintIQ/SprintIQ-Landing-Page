@@ -1,14 +1,16 @@
 import WhyNowWhoWeAreFor from "./WhyNowWhoWeAreFor"
-import { RiArrowRightUpLine, RiCloseCircleLine, RiGlobalLine, RiLinkedinBoxFill, RiTwitterXFill } from "@remixicon/react";
+import { RiArrowRightUpLine, RiCloseCircleLine, RiGlobalLine, RiLinkedinBoxFill } from "@remixicon/react";
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import {motion} from "framer-motion";
+import { RiGithubFill, RiLinkedinFill, RiMailFill, RiMediumFill, RiTwitterXFill } from "@remixicon/react"
+
 
 const About = () => {
   return (
     <>
     <div className="px-10 lg:px-20 py-10 lg:py-5 gradient">
-        <div>
+        <div className="mt-20">
             <h2 className="text-center text-8xl lg:text-[250px] font-bold text-[#1DAA4554]">
                 About
             </h2>
@@ -103,6 +105,7 @@ const About = () => {
 
         {/* TEAM */}
 
+   <div className="mt-20">
         <div>
         <h2 className="text-center text-8xl lg:text-[250px] font-bold text-[#1DAA4554] " >
             Team
@@ -119,6 +122,33 @@ const About = () => {
         <TeamMemberCard image="./francis.png" memberName="Francis Codex" position="Frontend Engineer" description="Blockchain Developer and Software Engineer" xLink="https://x.com/francis_codex" linkedInLink="https://www.linkedin.com/in/franciscodex/" websiteLink="https://franciscodex.vercel.app/" />
         <TeamMemberCard image="./tim.png" memberName="Tim Adigwe" position="Smart Contract Developer" description="Rust, Reactjs, React-native experienced developer" xLink="https://x.com/AdigweTim" linkedInLink="https://www.linkedin.com/in/timadigwe/" websiteLink="https://x.com/AdigweTim"/>
       </div>
+      </div>
+
+      {/* GET IN TAOUCH */}
+
+      <div className="mt-32">
+      <div className="max-w-[850px] mx-auto border rounded-lg lg:py-10 divide-y divide-[#1FC04D]">
+        <h2 className="text-center text-gradient text-4xl lg:text-7xl font-bold p-5">
+            Get In Touch
+        </h2>
+        <div className="p-5 lg:px-20 text-center">
+            <p>
+                We are open to collaboration, partnership, e.t.c. We are also eager to here your thoughts, questions and suggestions regarding our platform.
+                We look forward to feedbacks from you.
+            </p>
+            <div className="flex justify-center gap-3 mt-3">
+                <RiGithubFill/>
+                <Link to={'https://x.com/sprintIQ'} >
+                <RiTwitterXFill />
+                </Link>
+                <RiLinkedinFill/>
+                <RiMediumFill/>
+                <RiMailFill/>
+            </div>
+        </div>
+      </div>
+      </div>
+
     </div>
    </>
     
