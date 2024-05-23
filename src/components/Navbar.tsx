@@ -6,7 +6,7 @@ const Navbar = () => {
         <img src="./sprintiq-logo.svg" alt="" className="max-w-[106px] lg:max-w-[150px]"/>
       </div>
       <div>
-        <button className="border border-white text-white bg-gradient-to-r from-[#03C93B] via-[#005C1B] to-[#00AC1A] py-1 px-3 rounded-full font-semibold">
+        <button className="border border-white text-white bg-[#013403] py-1 px-3 rounded-full font-semibold">
           Launch
         </button>
       </div>
