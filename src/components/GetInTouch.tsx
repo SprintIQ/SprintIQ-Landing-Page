@@ -3,8 +3,8 @@ import { Link } from "react-router-dom"
 
 const GetInTouch = () => {
   return (
-    <section className="px-10 lg:px-20 py-10 lg:py-10">
-      <div className="max-w-[850px] mx-auto border border-[#1FC04D] bg-[rgba(23,86,17,0.33)] rounded-lg lg:py-10 divide-y divide-[#1FC04D]">
+    <section className="px-10 lg:px-20 py-10 lg:py-10 gradient">
+      <div className="max-w-[850px] mx-auto border rounded-lg lg:py-10 divide-y divide-[#1FC04D]">
         <h2 className="text-center text-gradient text-4xl lg:text-7xl font-bold p-5">
             Get In Touch
         </h2>
