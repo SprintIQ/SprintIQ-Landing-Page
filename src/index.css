@@ -6,20 +6,31 @@
     .hero{
         background-image: 
         url('./assets/plain.png'),
-        radial-gradient(87.74% 87.74% at 83.28% 6.8%, #013403 0%, #008928 67%, #01410A 99%);
+        radial-gradient(87.74% 87.74% at 83.28% 6.8%, #027506 0%, #018629 67.15%, #037512 99.17%);
+        background-image:
+        url('./assets/plain.png'),
+        -webkit-radial-gradient(87.74% 87.74% at 83.28% 6.8%, #027506 0%, #018629 67.15%, #037512 99.17%);
         background-size: cover;
         background-blend-mode: soft-light;
-        background-position: center center ;
+        background-position: center center;
     }
-    .gradient{
+    .about-hero{
         background-image: 
-        url(''),
-        radial-gradient(87.74% 87.74% at 83.28% 6.8%, #013403 0%, #008928 67%, #01410A 99%);
+        url('./assets/sp.png'),
+        radial-gradient(87.74% 87.74% at 83.28% 6.8%, #013403 0%, #008928 67.15%, #01410A 99.17%);
         background-size: cover;
         background-blend-mode: soft-light;
-        background-position: center center ;
+        background-position: center center;
     }
-      .radial-gradient{
+    .team-hero{
+        background-image: 
+        url('./assets/sp.png'),
+        radial-gradient(87.74% 87.74% at 83.28% 6.8%, #013403 0%, #008928 67.15%, #01410A 99.17%);
+        background-size: cover;
+        background-blend-mode: soft-light;
+        background-position: center center;
+    }
+    .radial-gradient{
         background-image: radial-gradient(87.74% 87.74% at 83.28% 6.8%, #012902 0%, #006920 67.15%, #003808 99.17%)
     }
     .text-gradient{

@@ -218,17 +218,17 @@ const TeamMemberCard = ({image, memberName, position, description, xLink, linked
                 </div>
                 <div className="flex items-center">
                   <span className="hover:opacity-80">
-                    <Link to={xLink ? xLink : ''}>
+                    <Link target='_blank' to={xLink ? xLink : ''}>
                       <RiTwitterXFill className="w-5"/>
                     </Link>
                   </span>
                   <span className="hover:opacity-80">
-                    <Link to={linkedInLink ? linkedInLink : ''}>
+                    <Link target='_blank' to={linkedInLink ? linkedInLink : ''}>
                       <RiLinkedinBoxFill className="w-5"/>
                     </Link>
                   </span>
                   <span className="hover:opacity-80">
-                    <Link to={websiteLink ? websiteLink : ''}>
+                    <Link target='_blank' to={websiteLink ? websiteLink : ''}>
                       <RiGlobalLine className="w-5"/>
                     </Link>
                   </span>
