@@ -42,7 +42,7 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
         />
         <meta
             property="og:image"
-            content="/og_image.jpg"
+            content="https://sprintiq.fun/og_image.jpg"
         />
         <meta name="twitter:card" content="summary_large_image"/>
         <meta property="twitter:domain" content="https://sprintiq-landing.vercel.app"/>
@@ -57,7 +57,7 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
         />
         <meta
             name="twitter:image"
-            content="/og_image.jpg"
+            content="https://sprintiq.fun/og_image.jpg"
         />
 
         <meta property="og:title" content="SprintIQ"/>
