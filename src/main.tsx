@@ -81,6 +81,7 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
             sizes="16x16"
             href="/favicon/favicon-16x16.png"
         />
+        <link rel="icon" href="/favicon.ico" type="image/x-icon"></link>
         <link rel="manifest" href="/favicon/site.webmanifest"/>
         <meta name="msapplication-TileColor" content="#187318"/>
       </Helmet>
