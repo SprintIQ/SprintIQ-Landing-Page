@@ -137,11 +137,15 @@ const About = () => {
                 We look forward to feedbacks from you.
             </p>
             <div className="flex justify-center gap-3 mt-3">
+                <Link to={'https://github.com/SprintIQ'}>
                 <RiGithubFill/>
+                </Link>
                 <Link to={'https://x.com/sprintIQ'} >
                 <RiTwitterXFill />
                 </Link>
+                <Link to={'https://www.linkedin.com/company/sprintiq/'}>
                 <RiLinkedinFill/>
+                </Link>
                 <RiMediumFill/>
                 <RiMailFill/>
             </div>
