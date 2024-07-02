@@ -3,7 +3,7 @@ import { RiArrowRightUpLine, RiCloseCircleLine, RiGlobalLine, RiLinkedinBoxFill 
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import {motion} from "framer-motion";
-import { RiGithubFill, RiLinkedinFill, RiMailFill, RiMediumFill, RiTwitterXFill } from "@remixicon/react"
+import { RiGithubFill, RiLinkedinFill, RiMailFill, RiTwitterXFill } from "@remixicon/react"
 
 
 const About = () => {
@@ -39,10 +39,10 @@ const About = () => {
                     Automated incentivized feature
                 </div>
                 <div className="max-w-[300px]">
-                    Quiz templates dedicated for Web3 personal assesment
+                Intuitive design, tailored to ensure game creators and players navigate easily on the platform.
                 </div>
                 <div className="max-w-[300px]">
-                    Intuitive design, tailored to ensure game creators and players navigate easily on the platform.
+                Quiz templates dedicated for Web3 personal assesment
                 </div>
             </div>
             <div className="h-[3px] w-full bg-gradient-to-r from-[#03350B] via-[#28FF15] to-[#025E1D] flex justify-between items-center mt-5">
@@ -146,7 +146,7 @@ const About = () => {
                 <Link to={'https://www.linkedin.com/company/sprintiq/'}>
                 <RiLinkedinFill/>
                 </Link>
-                <RiMediumFill/>
+                {/* <RiMediumFill/> */}
                 <RiMailFill/>
             </div>
         </div>
@@ -200,6 +200,7 @@ const TeamMemberCard = ({image, memberName, position, description, xLink, linked
             </div>
 
             {/* User details toast */}
+            
             <motion.div 
               className="bg-[#175611E5] text-white border border-[#1FC04D] py-3 rounded-lg px-3 absolute left-[50%] -translate-x-[50%] w-[90%] bottom-[5px]"
               initial = {{
