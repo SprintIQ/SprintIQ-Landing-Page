@@ -4,7 +4,7 @@ const Navbar = () => {
   const [buttonText, setButtonText] = useState('Launch');
 
   const handleHover = () => {
-    setButtonText('ComingSoon');
+    setButtonText('Coming Soon');
   };
 
   const handleLeave = () => {
