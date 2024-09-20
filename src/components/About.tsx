@@ -16,7 +16,7 @@ const About = () => {
             </h2>
             <div className="w-full flex justify-center">
                 <h3 className="text-gradient lg:text-left flex justify-center text-xl text-center lg:text-6xl font-bold lg:max-w-[850px] max-w-[300px]">
-                    Incentivised Quiz Dapp for Community, Events, e.t.c
+                    Incentivize Quiz Dapp for Community, Events, e.t.c
                 </h3>
             </div>
             <div className="lg:max-w-[850px] text-center lg:text-left text-lg mx-auto mt-10 flex flex-col gap-5">
@@ -36,13 +36,13 @@ const About = () => {
         <div className="mt-20 hidden lg:block max-w-[850px] mx-auto">
             <div className="grid lg:grid-cols-3 gap-5 items-end">
                 <div className="max-w-[250px]">
-                    Automated incentivized feature
+                    Automated incentivize feature
                 </div>
                 <div className="max-w-[300px]">
                 Intuitive design, tailored to ensure game creators and players navigate easily on the platform.
                 </div>
                 <div className="max-w-[300px]">
-                Quiz templates dedicated for Web3 personal assesment
+                Quiz templates dedicated for Web3 personal assessment
                 </div>
             </div>
             <div className="h-[3px] w-full bg-gradient-to-r from-[#03350B] via-[#28FF15] to-[#025E1D] flex justify-between items-center mt-5">
@@ -67,7 +67,7 @@ const About = () => {
         <div className="mt-20 lg:hidden flex flex-col gap-y-10">
             <div>
                 <div className="text-center">
-                    Automated incentivized feature
+                    Automated incentivize feature
                 </div>
                 <div className="h-[3px] w-full bg-gradient-to-r from-[#03350B] via-[#28FF15] to-[#025E1D] flex justify-between items-center mt-5">
                     <div className="w-full flex justify-center">
@@ -79,7 +79,7 @@ const About = () => {
             </div>
             <div>
                 <div className="text-center">
-                Quiz templates dedicated for Web3 personal assesment
+                Quiz templates dedicated for Web3 personal assessment
                 </div>
                 <div className="h-[3px] w-full bg-gradient-to-r from-[#03350B] via-[#28FF15] to-[#025E1D] flex justify-between items-center mt-5">
                     <div className="w-full flex justify-center">
@@ -119,12 +119,12 @@ const About = () => {
         <TeamMemberCard image="./uddy.png" memberName="Udoka A.M" position="Team Lead" description="Blockchain Developer and DevRel Engineer" xLink="https://x.com/Udoka_AM" linkedInLink="https://www.linkedin.com/in/udokaam/" websiteLink="https://x.com/SprintIQ"/>
         <TeamMemberCard image="./kelechi.png" memberName="Kelechi Endurance" position="Product Designer" description={`Seasoned design professional`} xLink="https://x.com/endurance_kel" linkedInLink="https://www.linkedin.com/in/kelechi-endurance-5921b820b/" websiteLink="https://kelechi917.vzy.io/"/>
         <TeamMemberCard image="./udoka.png" memberName="Onyele Udoka" position="Full-stack Developer" description="Product Centric Full Stack Engineer" xLink="https://x.com/FUMUDUKUS" linkedInLink="https://www.linkedin.com/in/udochukwukaonyela/" websiteLink="https://www.udoka.dev/"/>
-        <TeamMemberCard image="./francis.png" memberName="Francis Codex" position="Frontend Engineer" description="Blockchain Developer and Software Engineer" xLink="https://x.com/francis_codex" linkedInLink="https://www.linkedin.com/in/franciscodex/" websiteLink="https://franciscodex.vercel.app/" />
+        <TeamMemberCard image="./francis.png" memberName="Francis Ohilebo" position="Software Engineer" description="Blockchain Developer and Software Engineer" xLink="https://x.com/francis_codex" linkedInLink="https://www.linkedin.com/in/franciscodex/" websiteLink="https://franciscodex.vercel.app/" />
         <TeamMemberCard image="./tim.png" memberName="Tim Adigwe" position="Smart Contract Developer" description="Rust, Reactjs, React-native experienced developer" xLink="https://x.com/AdigweTim" linkedInLink="https://www.linkedin.com/in/timadigwe/" websiteLink="https://x.com/AdigweTim"/>
       </div>
       </div>
 
-      {/* GET IN TAOUCH */}
+      {/* GET IN TOUCH */}
 
       <div className="mt-32">
       <div className="max-w-[850px] mx-auto border rounded-lg lg:py-10 divide-y divide-[#1FC04D]">
@@ -147,7 +147,9 @@ const About = () => {
                 <RiLinkedinFill/>
                 </Link>
                 {/* <RiMediumFill/> */}
+                <Link to={"mailto:udoka.am@gmail.com"}>
                 <RiMailFill/>
+                </Link>
             </div>
         </div>
       </div>
